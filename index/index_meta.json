@@ -1,0 +1,9 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "num_documents": 31,
+  "num_chunks": 2124,
+  "chunk_size": 600,
+  "chunk_overlap": 100,
+  "build_time_sec": 40.87
+}
