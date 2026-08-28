@@ -1,0 +1,8 @@
+services:
+  bot:
+    build: .
+    volumes:
+      - ./index:/app/index
+      - ./knowledge_base:/app/knowledge_base
+    stdin_open: true
+    tty: true
